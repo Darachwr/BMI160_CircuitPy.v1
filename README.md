@@ -1,0 +1,2 @@
+v1 uses a custom register setup and reading of sensor data, whereas the simplified version uses a BMI160 driver (from jposada202020: https://github.com/jposada202020/CircuitPython_BMI160) which removes the need of manually writing the register, as well as the reading of sensor values.
+The simplified approach is greatly recommended for speed and simplicity, with v1 giving a more detailed learning approach
